@@ -8,12 +8,18 @@ nav_order: 2
 Use GET to fetch exisiting records.
 
 You can get single records:<br>
-`GET https://api.ticketpark.ch/events/{eventPid}`
+```
+GET https://api.ticketpark.ch/events/{eventPid}
+```
 
 Or you can get multiple records at once:<br>
-`GET https://api.ticketpark.ch/events/`
+```
+GET https://api.ticketpark.ch/events/
+```
 
 **Heads up:**  Fetching multiple records may return a lot of data. You will probably want to use pagination and/or filters.
+
+---
 
 ## POST
 Use POST to create new records.
@@ -29,11 +35,16 @@ Or you can create multiple records at once:
 
 ```
 POST https://api.ticketpark.ch/events/
+```
+
+```json
 [
 {"name": "My party", "currency": "CHF"},
 {"name": "My concert", "currency": "CHF"}
 ]
 ```
+
+---
 
 ## PATCH
 Use PATCH to edit existing records.
@@ -42,6 +53,9 @@ You can edit single records:
 
 ```
 PATCH https://api.ticketpark.ch/events/{eventPid}
+```
+
+```json
 {"name": "My renamed party"}
 ```
 
@@ -49,15 +63,22 @@ Or you can edit multiple records at once:
 
 ```
 PATCH https://api.ticketpark.ch/events/
+```
+
+```json
 [
 {"pid": "{eventPid}", "name": "My renamed party"},
 {"pid": "{eventPid}", "name": "My renamed concert"}
 ]
 ```
 
+---
+
 ## DELETE
 Use DELETE to remove records.
 
-`DELETE https://api.ticketpark.ch/events/{eventPid}`
+```
+DELETE https://api.ticketpark.ch/events/{eventPid}
+```
 
 **Heads up:** Deleting a record over the API is very powerful. All related child records will also get deleted.
