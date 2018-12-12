@@ -31,7 +31,9 @@ POST https://api.ticketpark.ch/persons/
 }
 ```
 
-In the response, look for the `Location` header field to get the newly created pid.
+Hint
+{: .label }
+In the response look for the `Location` header field to get the newly created pid.
 
 ---
 
@@ -60,7 +62,7 @@ A tickets is defined by
 * a show
 * a sector or a seat
 
-In this example we assume, you already have your event set up and you know the pids of your prices, shows and sectors.
+In this example we assume you already have your event set up and you know the pids of your prices, shows and sectors.
 
 ```
 POST https://api.ticketpark.ch/tickets/
