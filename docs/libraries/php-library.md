@@ -1,6 +1,6 @@
 ---
-parent: Getting started
-nav_order: 4
+parent: Libraries
+nav_order: 1
 ---
 # Ticketpark API PHP Library
 
