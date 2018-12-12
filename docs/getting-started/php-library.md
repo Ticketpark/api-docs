@@ -39,4 +39,4 @@ if ($response->isSuccessful()) {
 // 5. Get the tokens and store them to use them again later on
 $myAccessToken  = $client->getAccessToken();
 $myRefreshToken = $client->getRefreshToken();
-``
+```
