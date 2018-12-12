@@ -6,7 +6,7 @@ nav_order: 3
 
 There is an official Ticketpark API PHP library to make your developer life easier:
 
-https://github.com/Ticketpark/php-api-client
+[API Client on Github](https://github.com/Ticketpark/php-api-client){: .btn }
 
 ## Installation
 
