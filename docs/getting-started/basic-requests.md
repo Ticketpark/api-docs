@@ -17,7 +17,9 @@ Or you can get multiple records at once:<br>
 GET https://api.ticketpark.ch/events/
 ```
 
-**Heads up:**  Fetching multiple records may return a lot of data. You will probably want to use pagination and/or filters.
+Heads up:
+{: .label .label-red}
+Fetching multiple records may return a lot of data. You will probably want to use pagination and/or filters.
 
 ---
 
@@ -81,4 +83,6 @@ Use DELETE to remove records.
 DELETE https://api.ticketpark.ch/events/{eventPid}
 ```
 
-**Heads up:** Deleting a record over the API is very powerful. All related child records will also get deleted.
+Heads up:
+{: .label .label-red}
+Deleting a record over the API is very powerful. All related child records will also get deleted.
