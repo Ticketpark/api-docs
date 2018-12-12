@@ -1,6 +1,6 @@
 ---
 parent: Getting started
-title: Reading response header
+title: Response headers
 nav_order: 3
 ---
 # Reading response headers

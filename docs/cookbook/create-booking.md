@@ -33,6 +33,8 @@ POST https://api.ticketpark.ch/persons/
 
 In the response, look for the `Location` header field to get the newly created pid.
 
+---
+
 ## 2. Create a booking
 
 Create a booking and add the customer to it.
@@ -47,6 +49,7 @@ POST https://api.ticketpark.ch/bookings/
 }
 ```
 
+---
 
 ## 3. Reserve two tickets
 
@@ -80,6 +83,8 @@ POST https://api.ticketpark.ch/tickets/
 ]
 ```
 
+---
+
 ## 4. Confirm booking
 
 Every booking needs to be confirmed. Tickets of unconfirmed bookings will be released again after 30 minutes.
@@ -93,6 +98,8 @@ PATCH https://api.ticketpark.ch/bookings/{pid of booking from request 2}
     "confirmation": true
 }
 ```
+
+---
 
 ## 5. Send confirmation email
 
