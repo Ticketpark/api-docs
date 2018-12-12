@@ -31,6 +31,8 @@ POST https://api.ticketpark.ch/persons/
 }
 ```
 
+In the response, look for the `Location` header field to get the newly created pid.
+
 ## 2. Create a booking
 
 Create a booking and add the customer to it.
@@ -44,6 +46,7 @@ POST https://api.ticketpark.ch/bookings/
     "customer": "{pid of person from request 1}"
 }
 ```
+
 
 ## 3. Reserve two tickets
 
