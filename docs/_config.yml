@@ -1,5 +1,7 @@
 remote_theme: pmarsceill/just-the-docs
 
+title: Ticketpark API Docs
+
 aux_links:
-"API endpoints":
-  - "https://api.ticketpark.ch/doc/"
+    "API endpoints":
+      - "https://api.ticketpark.ch/doc/"
