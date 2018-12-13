@@ -19,4 +19,5 @@ The source for this documentation is available on Github. You are invited to hel
 ## Questions or feedback?
 
 Our support team is there for you.
+
 [Get in touch](https://www.ticketpark.ch/support/){: .btn }
