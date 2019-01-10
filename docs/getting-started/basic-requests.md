@@ -92,6 +92,6 @@ Use DELETE to remove records.
 DELETE https://api.ticketpark.ch/events/{eventPid}
 ```
 
-Heads up:
+Heads up
 {: .label .label-red}
 Deleting a record over the API is very powerful. All related child records will also get deleted.
