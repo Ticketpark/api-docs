@@ -17,9 +17,18 @@ Or you can get multiple records at once:<br>
 GET https://api.ticketpark.ch/events/
 ```
 
-Heads up:
+Heads up
 {: .label .label-red}
 Fetching multiple records may return a lot of data. You will probably want to use [pagination](pagination.html) and/or [filters](filters.html).
+
+
+Hint
+{: .label }
+If you already know of child-records you will want to use, you can request them as additional properties. The following example will include the shows for each event into the response.
+
+```
+GET https://api.ticketpark.ch/events/?properties[shows]=1
+```
 
 ---
 
