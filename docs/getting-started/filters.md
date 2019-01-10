@@ -20,8 +20,8 @@ GET http://api.ticketpark/things/?filters[name]=Hugo
 
 |Parameter|Usage|Allowed values|
 |:-----|:------|:------|
-|`filters[_logic]`|When using multiple filters, the logic decides, whether the result must match all filters or just one of them|<ul><li>`AND` (default)</li><li>-`OR`</li></ul>
-|`filters[_comp]`|The comparison made on the value|<ul><li>`eq` (equal, default)</li><li>`gt` (greater than)</li><li>`gte` (greater than or equal)</li><li>`lt` (lower than)</li><li>`lte` (lower than or equal)</li><li>`neq` (not equal)</li><li>`isNull`</li><li>`isNotNull`</li></ul>
+|`filters[_logic]`|When using multiple filters, the logic decides, whether the result must match all filters or just one of them|`AND` (default), `OR`
+|`filters[_comp]`|The comparison made on the value|`eq` (equal, default), `gt` (greater than), `gte` (greater than or equal), `lt` (lower than), `lte` (lower than or equal), `neq` (not equal), `isNull`, `isNotNull`
 |`filters[_value]`|The value the comparison is made against|
 
 ---
