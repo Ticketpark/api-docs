@@ -19,7 +19,7 @@ GET https://api.ticketpark.ch/events/
 
 Heads up:
 {: .label .label-red}
-Fetching multiple records may return a lot of data. You will probably want to use pagination and/or filters.
+Fetching multiple records may return a lot of data. You will probably want to use [pagination](pagination.html) and/or [filters](filters.html).
 
 ---
 
