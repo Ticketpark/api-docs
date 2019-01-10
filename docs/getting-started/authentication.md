@@ -14,6 +14,8 @@ The authentication system for the Ticketpark API is based on oAuth 2.0. This mea
 Client key and Client secret can be obtained from Ticketpark support.
 Username and password are the same you would use to log in to the Ticketpark backend.
 
+---
+
 ## Getting an access token
 To get your first access token you need to send the username and password along with your client authorization data. This is the only time you need the user’s password. Never save the user’s password in your application, but store the refresh token instead.
 
@@ -50,6 +52,7 @@ refresh_token  |string	      |Refresh token | `YWUzOTJjNz…`
 expires_in	   |int	          |Time in seconds after which the access_token will expire | `600`
 
 
+---
 
 ## Refreshing the access token
 
