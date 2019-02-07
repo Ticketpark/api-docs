@@ -92,9 +92,10 @@ expires_in	   |int	          |Time in seconds after which the access_token will 
 
 ## Using the access token
 
+
 In [any request](basic-requests.html) provide a valid access token.
 
-
+**Header fields**
 
 |Field         |Type          |Description   |Example
 |:-------------|:-------------|:-------------|:-------------
