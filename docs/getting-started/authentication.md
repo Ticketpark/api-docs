@@ -86,3 +86,18 @@ grant_type	   |string	      |String 'refresh_token'	|`refresh_token`
 access_token   |string	      |Access token	 | `NTIxNzE4N…`
 refresh_token  |string	      |Refresh token | `YWUzOTJjNz…`
 expires_in	   |int	          |Time in seconds after which the access_token will expire | `600`
+
+
+---
+
+## Using the access token
+
+In [any request](basic-requests.html) provide a valid access token.
+
+
+
+|Field         |Type          |Description   |Example
+|:-------------|:-------------|:-------------|:-------------
+Content-Type   |string	      |Content type which is posted | `application/json`
+Accept	       |string        |Accepted response type | `application/json`
+Authorization  |string	      |String 'Bearer' followed by the access token|`Bearer NTIxNzE4N…`
