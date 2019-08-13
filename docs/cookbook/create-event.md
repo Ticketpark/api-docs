@@ -69,10 +69,6 @@ POST https://api.ticketpark.ch/events/
 }
 ```
 
-Hint
-{: .label }
-In the response look for the `Location` header field to get the newly created pid.
-
 
 ---
 ## 3. Create shows
