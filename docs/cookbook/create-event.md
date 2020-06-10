@@ -77,7 +77,7 @@ Add one or multiple show to your event.
 
 
 ```
-POST https://api.ticketpark.ch/show/
+POST https://api.ticketpark.ch/shows/
 ```
 
 ```json
