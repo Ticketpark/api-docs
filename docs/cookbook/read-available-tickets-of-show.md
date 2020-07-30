@@ -33,16 +33,6 @@ The response will contain a list of capacities of all available ticket allocatio
       "total": 165,
       "sold": 0,
       "available": 165
-    },
-    "host": {
-      "total": 50,
-      "sold": 15,
-      "available": 35
-    },
-    "boxoffice": {
-      "total": 30,
-      "sold": 0,
-      "available": 30
     }
   }
 }
