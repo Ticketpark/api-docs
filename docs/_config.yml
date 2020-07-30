@@ -1,7 +1,3 @@
 remote_theme: Ticketpark/just-the-docs
 
 title: Ticketpark API
-
-aux_links:
-    "API endpoints":
-      - "https://api.ticketpark.ch/doc/"
