@@ -1,6 +1,6 @@
 ---
 parent: Cookbook
-nav_order: 5
+nav_order: 60
 title: Add translations
 ---
 # How to add translations
