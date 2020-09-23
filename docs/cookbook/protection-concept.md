@@ -53,6 +53,12 @@ PATCH https://api.ticketpark.ch/events/{pid-of-your-event}
 ```
 
 
+Heads up
+{: .label .label-red}
+Changing `enable_social_distancing` over the API has no effect on `Shows`. You still need to set the status per show
+over the api. It is only a shortcut for actions which happen in the GUI.
+
+
 ## Contact tracing
 
 Contact tracing data is collected with `Annotations`, which are text fields attached to single tickets.
