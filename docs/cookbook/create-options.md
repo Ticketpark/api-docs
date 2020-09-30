@@ -15,6 +15,7 @@ per person whithin a booking, like selecting a meal, attending a workshop, etc.
 like reservation of a parking space or ordering additional merchandise.
 
 
+---
 ## How to create ticket options
 
 
@@ -28,7 +29,7 @@ POST https://api.ticketpark.ch/ticketoptiongroups/
 {
     "event": "{pid of your event}",
     "name": "Your dinner selection",
-    "required": true // or false
+    "required": true
 }
 ```
 
