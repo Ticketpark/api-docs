@@ -71,10 +71,10 @@ POST https://api.ticketpark.ch/ticketoptionlimitations/
 }
 ```
 
-By providing multiple `ticket_options` you can create a combined limitation. For example, let's say you sell meal in
+By providing multiple `ticket_options` you can create a combined limitation. For example, let's say you sell meals in
 a restaurant to enjoy before your theater perfomance. There are 100 seats in the restaurant, but you let people choose
 whether they want a vegetarian meal or one with meat. In this case, set a ticket option limitation of 100 per show and
-add both ticket options to it.
+add both ticket options (veggie and meal) to it.
 
 
 ---
