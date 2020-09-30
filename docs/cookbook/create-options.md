@@ -5,7 +5,7 @@ title: Add options to booking process
 ---
 # How to add options to a booking process
 
-There are two ways how to add additional options to a booking process:
+There are two ways to add additional options to a booking process:
 
 * *Ticket options*, which apply to a single ticket. This is often the best choice. Use this for things which  may differ
 per person whithin a booking, like selecting a meal, attending a workshop, etc.
@@ -52,7 +52,7 @@ POST https://api.ticketpark.ch/ticketoptions/
 
 You can add as many ticket options to a ticket option group as you want. The ticket buyer will be able to select 1 per group.
 
-This can also be used for simple yes/no questions. Imagine a ticket option group with name `Do you need an audio guide?` and the according ticket options `Yes` and `No`.
+This can also be used for simple yes/no questions. Imagine a ticket option group with the name `Do you need an audio guide?` and the ticket options `Yes` and `No`.
 
 ---
 ### 3. Add limitations for ticket options
@@ -90,7 +90,7 @@ POST https://api.ticketpark.ch/options/
 {
     "event": "{pid of your event}",
     "name": "Would you like to reserve a parking space?",
-    "items_per_booking": 1 // optional value to set maximum number per booking, if set to 1 the choice will become a yes/no selection
+    "items_per_booking": 1 // optional, to set the maximum number per booking. If set to 1 the choice will become a yes/no selection
     "limitation": 50 // optional, the maximum available quantity of this option
 }
 ```
