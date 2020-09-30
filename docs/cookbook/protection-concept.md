@@ -24,14 +24,14 @@ POST https://api.ticketpark.ch/events/
 
 ```json
 {
-	"host": "{pid of your host}",
-	"name": "My Fair Lady",
-	"allow_digital_dispatch": true,
-	"currency": "CHF",
-	"protection_concept": {
-		"facemask_required": true,
-		"enable_social_distancing": true
-	}
+    "host": "{pid of your host}",
+    "name": "My Fair Lady",
+    "allow_digital_dispatch": true,
+    "currency": "CHF",
+    "protection_concept": {
+        "facemask_required": true,
+        "enable_social_distancing": true
+    }
 }
 ```
 
@@ -45,18 +45,29 @@ PATCH https://api.ticketpark.ch/events/{pid-of-your-event}
 
 ```json
 {
-	"protection_concept": {
-		"facemask_required": true,
-		"enable_social_distancing": true
-	}
+    "protection_concept": {
+        "facemask_required": true,
+        "enable_social_distancing": true
+    }
 }
 ```
 
 
 Heads up
 {: .label .label-red}
-Changing `enable_social_distancing` over the API has no effect on `Shows`. You still need to set the status per show
-over the api. It is only a shortcut for actions which happen in the GUI.
+With `enable_social_distancing` on, you still need to define the social distancing state per show when creating the over the API:
+
+
+```
+POST https://api.ticketpark.ch/shows/
+```
+
+```json
+{
+    "enable_social_distancing": true,
+    // all other show properties
+}
+```
 
 
 ## Contact tracing
@@ -72,8 +83,8 @@ In order to ask for contact tracing data, you can use exiting annotation templat
  
  ```json
  {
- 	"event": "{pid of your event}",
- 	"based_on_annotation_template": "contact_tracing_name"
+     "event": "{pid of your event}",
+     "based_on_annotation_template": "contact_tracing_name"
  }
  ```
 
