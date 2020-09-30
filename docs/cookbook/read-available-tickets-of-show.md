@@ -1,6 +1,6 @@
 ---
 parent: Cookbook
-nav_order: 4
+nav_order: 40
 title: Get ticket count of show
 ---
 # How to read the ticket count of a show

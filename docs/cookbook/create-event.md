@@ -1,6 +1,6 @@
 ---
 parent: Cookbook
-nav_order: 1
+nav_order: 10
 title: Create a new event
 ---
 # How to create a new event

@@ -1,6 +1,6 @@
 ---
 parent: Cookbook
-nav_order: 2
+nav_order: 20
 title: Create a new booking
 ---
 # How to create a new booking
