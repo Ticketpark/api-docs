@@ -85,7 +85,7 @@ Ticketpark can notify you per call to a webhook url whenever a new booking has b
 You can fetch all bookings of a show, event or even host by getting a collection of bookings. Example:
 
 ```
-GET https://api.ticketpark.ch//events/[event-pid]/bookings/?properties[customer]=true&properties[tickets]=true&maxResults=10&page=0
+GET https://api.ticketpark.ch/events/[event-pid]/bookings/?properties[customer]=true&properties[tickets]=true&maxResults=10&page=0
 ```
 
 You will get a response containing a collection of results like above.
