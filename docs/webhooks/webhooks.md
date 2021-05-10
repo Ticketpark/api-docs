@@ -23,7 +23,7 @@ If  a new booking is created and confirmed, the following message will be sent t
 }
 ```
 
-You can then fetch booking details [as described here](/cookbook/read-booking.html).
+You can then fetch booking details [as described here](/api-docs/cookbook/read-booking.html).
 
 
 ## New payment
