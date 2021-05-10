@@ -5,7 +5,7 @@ has_children: false
 ---
 # Webhooks
 
-By using webhooks, Ticketpark will actively inform your application if certain events take place. You can then react and fetch the required data from the API for further processing.
+By using webhooks, Ticketpark will actively inform your application when certain events take place. You can then react and fetch the required data from the API for further processing.
 
 Please contact [support@ticketpark.ch](mailto:support@ticketpark.ch) to store your webhook urls.
 
