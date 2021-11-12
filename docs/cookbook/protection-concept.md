@@ -30,7 +30,8 @@ POST https://api.ticketpark.ch/events/
     "currency": "CHF",
     "protection_concept": {
         "facemask_required": true,
-        "enable_social_distancing": true
+        "enable_social_distancing": true,
+        "health_certificate_required": true
     }
 }
 ```
@@ -47,7 +48,8 @@ PATCH https://api.ticketpark.ch/events/{pid-of-your-event}
 {
     "protection_concept": {
         "facemask_required": true,
-        "enable_social_distancing": true
+        "enable_social_distancing": true,
+        "health_certificate_required": true
     }
 }
 ```
