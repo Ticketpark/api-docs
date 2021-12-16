@@ -8,10 +8,10 @@ title: Protection concept
 This is how to set [protection concept data](https://headwayapp.co/ticketpark-changelog/schutzkonzept-einfach-selbst-definieren-169591) over the api:
 
 
-## Facemask and social distancing
+## Facemask, health certificate and social distancing
 
-A protection concept defining whether a facemask is required qnd whether social distancing on seating charts should apply
-is created whenever you add a new event. By default the values are false. 
+A protection concept defining whether a facemask or a health certificate is required and whether social distancing on seating charts should apply
+is created whenever you add a new event.
 
 
 ### Defining protection concept settings when creating an event
@@ -31,7 +31,7 @@ POST https://api.ticketpark.ch/events/
     "protection_concept": {
         "facemask_required": true,
         "enable_social_distancing": true,
-        "health_certificate_required": true
+        "health_certificate_mode": '3G' // accepts '3G', '2G', '2GPLUS' and NULL
     }
 }
 ```
@@ -48,8 +48,7 @@ PATCH https://api.ticketpark.ch/events/{pid-of-your-event}
 {
     "protection_concept": {
         "facemask_required": true,
-        "enable_social_distancing": true,
-        "health_certificate_required": true
+        "enable_social_distancing": true
     }
 }
 ```
@@ -66,7 +65,7 @@ POST https://api.ticketpark.ch/shows/
 
 ```json
 {
-    "enable_social_distancing": true,
+    "enable_social_distancing": true
     // all other show properties
 }
 ```
