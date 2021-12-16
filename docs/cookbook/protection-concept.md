@@ -31,7 +31,7 @@ POST https://api.ticketpark.ch/events/
     "protection_concept": {
         "facemask_required": true,
         "enable_social_distancing": true,
-        "health_certificate_mode": '3G' // accepts '3G', '2G', '2GPLUS' and NULL
+        "health_certificate_mode": "3G" // accepts "3G", "2G", "2GPLUS" and null
     }
 }
 ```
