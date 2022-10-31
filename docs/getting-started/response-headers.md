@@ -9,8 +9,9 @@ nav_order: 3
 
 |Status|Meaning|
 |:-----|:------|
-**200**   | All went well.
-**204**   | All went well, but there is no data to be returned (because you did a POST, PATCH or DELETE).
+**200**   | All went well (GET)
+**201**   | All went well, but there is no data to be returned (POST, PATCH).
+**204**   | All went well, but there is no data to be returned (DELETE).
 **403**   | You are not authorized to perform the requested action.
 **404**   | We could not find what you were looking for. Either the url or some pid you sent is invalid.
 **409**   | The data you submitted could not be handled. Probably you sent some invalid payload
