@@ -22,5 +22,5 @@ nav_order: 3
 
 |Field|Meaning|
 |:-----|:------|
-Location | The url to access the records you created or edited. This is where you'll find newly created pids.
-X-Count | The number of records be returned by a GET request. If you use pagination, this number contains the total of records, not only the ones on your current page.
+location | The url to access the records you created or edited. This is where you'll find newly created pids.
+x-count | The number of records be returned by a GET request. If you use pagination, this number contains the total of records, not only the ones on your current page.
