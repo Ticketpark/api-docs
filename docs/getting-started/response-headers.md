@@ -3,8 +3,6 @@ parent: Getting started
 title: Response headers
 nav_order: 3
 ---
-# Reading response headers
-
 ## Status codes
 
 |Status|Meaning|

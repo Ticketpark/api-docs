@@ -3,8 +3,6 @@ parent: Cookbook
 nav_order: 50
 title: Protection concept
 ---
-# Protection concept
-
 This is how to set [protection concept data](https://headwayapp.co/ticketpark-changelog/schutzkonzept-einfach-selbst-definieren-169591) over the api:
 
 

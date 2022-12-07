@@ -3,8 +3,6 @@ parent: Cookbook
 nav_order: 40
 title: Get ticket count of show
 ---
-# How to read the ticket count of a show
-
 Sometimes you want to get the number of available tickets for a show, for example to display a *sold out* badge on your
 website if necessary.
 

@@ -3,8 +3,6 @@ parent: Cookbook
 nav_order: 30
 title: Read data of bookings
 ---
-# How to read data of bookings
-
 This is the basic workflow how to read data of bookings over the api.
 
 ## 1. Get a single booking

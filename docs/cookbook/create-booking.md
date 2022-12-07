@@ -3,8 +3,6 @@ parent: Cookbook
 nav_order: 20
 title: Create a new booking
 ---
-# How to create a new booking
-
 This is the basic workflow how to create a new booking over the api.
 
 ## 1. Create a customer

@@ -2,8 +2,6 @@
 parent: Getting started
 nav_order: 6
 ---
-# Filters
-
 ## Basics
 
 Filters can be added with a `filters` query parameters to GET requests which return multiple records.

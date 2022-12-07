@@ -3,8 +3,6 @@ parent: Cookbook
 nav_order: 11
 title: Add options to booking process
 ---
-# How to add options to a booking process
-
 There are two ways to add additional options to a booking process:
 
 * *Ticket options*, which apply to a single ticket. This is often the best choice. Use this for things which  may differ

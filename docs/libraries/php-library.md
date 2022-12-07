@@ -3,8 +3,6 @@ parent: Libraries
 title: PHP
 nav_order: 1
 ---
-# Ticketpark API PHP Client
-
 There is an official Ticketpark API PHP client to make your developer life easier:
 
 [PHP API Client on Github](https://github.com/Ticketpark/php-api-client){: .btn }

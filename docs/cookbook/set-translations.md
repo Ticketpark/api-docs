@@ -3,8 +3,6 @@ parent: Cookbook
 nav_order: 60
 title: Add translations
 ---
-# How to add translations
-
 In `POST` and `PATCH` requests you can use the special `_translations` key to add or edit translations for specific fields.
 
 

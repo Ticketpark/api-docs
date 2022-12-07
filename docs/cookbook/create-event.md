@@ -3,8 +3,6 @@ parent: Cookbook
 nav_order: 10
 title: Create a new event
 ---
-# How to create a new event
-
 This is the basic workflow how to create a new event over the api.
 
 

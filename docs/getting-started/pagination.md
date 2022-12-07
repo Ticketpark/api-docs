@@ -2,8 +2,6 @@
 parent: Getting started
 nav_order: 5
 ---
-# Pagination
-
 In GET requests which return multiple records it is recommended to use pagination.
 
 In order to do this you add two query parameters:

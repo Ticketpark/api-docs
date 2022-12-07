@@ -2,8 +2,6 @@
 parent: Getting started
 nav_order: 4
 ---
-# Endpoints
-
 The list of endpoints [is available here](https://static.ticketpark.ch/ticketpark/api/api-docs.html).
 <br>We recommend to use **Firefox** to open this link.
 
