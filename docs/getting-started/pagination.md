@@ -1,6 +1,7 @@
 ---
 parent: Getting started
 nav_order: 5
+title: Pagination
 ---
 In GET requests which return multiple records it is recommended to use pagination.
 

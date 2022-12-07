@@ -1,6 +1,7 @@
 ---
 parent: Getting started
 nav_order: 1
+title: Authentication
 ---
 The authentication system for the Ticketpark API is based on oAuth 2.0. This means in a nutshell:
 

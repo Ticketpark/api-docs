@@ -1,6 +1,7 @@
 ---
 parent: Getting started
 nav_order: 2
+title: Basic requests
 ---
 ## GET
 Use GET to fetch exisiting records.

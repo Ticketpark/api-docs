@@ -2,6 +2,7 @@
 parent: Getting started
 title: Response headers
 nav_order: 3
+title: Response header
 ---
 ## Status codes
 

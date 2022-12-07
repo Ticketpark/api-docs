@@ -1,6 +1,7 @@
 ---
 parent: Getting started
 nav_order: 6
+title: Filters
 ---
 ## Basics
 
