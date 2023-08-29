@@ -8,9 +8,10 @@ title: Response header
 
 |Status|Meaning|
 |:-----|:------|
-**200**   | All went well (GET)
+**200**   | All went well (GET).
 **201**   | All went well, but there is no data to be returned (POST, PATCH).
-**204**   | All went well, but there is no data to be returned (DELETE).
+**202**   | All went well. The data was accepted, the actual execution will be handled time-delayed (some POST request).
+**204**   | All went well, but there is no data to be returned (DELETE, some PATCH requests).
 **403**   | You are not authorized to perform the requested action.
 **404**   | We could not find what you were looking for. Either the url or some pid you sent is invalid.
 **409**   | The data you submitted could not be handled. Probably you sent some invalid payload
