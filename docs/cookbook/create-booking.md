@@ -49,9 +49,14 @@ POST https://api.ticketpark.ch/bookings/
 }
 ```
 
+Hint
+{: .label }
+Due to validation constraints You can't create a `delivery` booking just yet. If you need `delivery` booking,
+see hint in point 4. 
+
 ---
 
-## 3. Reserve two tickets
+## 3. Reserve some tickets
 
 Add some tickets to the booking. Note how in this example we create two tickets with just one request.
 
@@ -96,6 +101,18 @@ PATCH https://api.ticketpark.ch/bookings/{pid of booking from request 2}
 ```json
 {
     "confirmation": true
+}
+```
+
+Hint
+{: .label }
+If you need `delivery` booking, you can set the dispatch method now. With the tickets already reserved, the system will
+find correct `DeliveryRates` and add `Deliveries` to the `Booking`
+
+```json
+{
+    "confirmation": true,
+    "delivery": true
 }
 ```
 
